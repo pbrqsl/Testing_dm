@@ -38,3 +38,9 @@ class TestPrime:
         expected = [-7, 0, 2, 4, 5]
         QuickSort.quicksort(array)
         assert array == expected
+
+    def test_should_not_modify_empty_array(self):
+        array = []
+        expected = []
+        QuickSort.quicksort(array)
+        assert array == expected
