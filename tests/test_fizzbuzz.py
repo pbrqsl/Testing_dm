@@ -1,4 +1,6 @@
 from src.fizz_buzz import FizzBuzz
+
+
 class TestFizzBuzz:
     def test_should_return_fizz_when_divisible_only_by_3(self):
         number = 6

@@ -1,8 +1,7 @@
 from src.exercise_1_prime_numbers import Prime
-import pytest
+
 
 class TestPrime:
-
     def test_should_retuern_false_for_1(self):
         number = 1
         expected = False

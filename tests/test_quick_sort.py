@@ -1,8 +1,7 @@
 from src.exercise_3_quick_sort import QuickSort
-import pytest
+
 
 class TestPrime:
-
     def test_should_not_modify_sorted_array(self):
         array = [1, 2]
         expected = [1, 2]
